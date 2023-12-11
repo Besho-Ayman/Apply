@@ -1,0 +1,112 @@
+<html>
+
+  <head>
+    <title>Home</title>
+    
+    <link rel="stylesheet" type="text/css" href="./Loann.css">
+    <link rel="shortcut icon" href="./img/icon10.png">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- ooo -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <!-- <meta http-equiv="refresh" content="4"> -->
+
+  </head>
+
+
+
+  <body>
+    <!-- <nav class="nav1"> 
+      <ul class="ul_nav">
+        <li class="li_nav"> <a class="a_nav" href="Properties.html">Properties</a></li>
+        <li class="li_nav"> <a class="a_nav" href="Advantages.html">Advantages</a> </li>
+        <li class="li_nav"><a class="a_nav" href="Loan_account.html">Loan account</a> </li>
+        <li class="li_nav"> <a class="a_nav" href="makeup.html">Offers</a></li>
+        <li class="li_nav"> <a class="a_nav" href="Fees.html">Fees</a></li>
+        <li class="li_nav"> <a class="a_nav" href="conditions.html">Conditions</a></li>
+        <button type="button" class="but_Apply"><a class="a_Apply" href="conditions.html">Apply Now</a> </button>
+      </ul>  
+    </nav>  -->
+    <div class="apply">
+      <div class="prg">
+        <h1 class="h_apply"> Loan Apply</h1>
+        <h5 class="h_apply2">Home > Loan Apply</h5>
+        <!-- <img class="img_apply1" src="./img/img23.jpg" alt="mm"> -->
+        <img class="img_apply" src="./img/img24.png" alt="mm">
+      </div>
+    </div>
+      <!-- ==========box-left====== -->
+      <div class="box-left">
+            <Ul class="box-left-ul">
+              <li class="box-left-li  box-left-li-active" data-cont=".one" >
+                <span class="icon"></span>
+                <span class="title">Loan Details</span>
+              </li>
+              <li class="box-left-li" data-cont=".two">
+                <span class="icon"></span>
+                <span class="title">Personal Details</span>
+              </li>
+              <li class="box-left-li" data-cont=".three">
+                <span class="icon"></span>
+                <span class="title">Documants Upload</span>
+              </li>
+            </Ul>
+
+          <!-- =========box- right======== -->
+        <div class="box-right">
+            <Ul class="box-right-ul">
+              <!-- Personal Loan -->
+              <li class="box-right-li" id="personalLoan">
+                <img class="box-right-li-img" rel="shortcut icon" src="./img/icon15.png" alt="">
+                <span class="box-right-li-title">Personal Loan </span>
+              </li>
+              <!-- Home Loan -->
+              <li class="box-right-li" id="homeLoan">
+                <img class="box-right-li-img" rel="shortcut icon" src="./img/icon18.png" alt="">
+                <span class="box-right-li-title"> Home Loan</span>
+              </li>
+              <!-- Car Loan -->
+              <li class="box-right-li" id="carLoan">
+                <img class="box-right-li-img" rel="shortcut icon" src="./img/icon17.png" alt="">
+                <span class="box-right-li-title">Car Loan</span>
+              </li>
+            </Ul>
+          <div class="content">
+            <div class="one">Loan Details 1</div>
+            <div class="two">Personal Details 2</div>
+
+            <!-- ========content3===== -->
+            <div class="three">
+                <p>
+              Selfie photo 
+              <br>
+              Your personal photo.The photo must be done by yourself 
+              the photo must show your face and your both shoulders 
+              <br>
+              ID Card
+              <br>
+              Valid Government ID card must be shown.
+              Front and back side.Original ID card.Full photo.
+              All parts of the ID card must show on the photo.</p>
+              <form id="fileUploadForm">
+                <label  for="fileInput">Choose a file:</label>
+                <input  type="file" id="fileInput" name="fileInput" accept=".txt, .pdf, .docx .jpg ">
+              </form>
+              <div class="button-container">
+                <button class="before-button">previous</button>
+                <button class="send-button">Send</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+
+  <!-- ========script======= -->
+    <script src="apply.js"></script>
+
+
+  </body>
+
+</html>
